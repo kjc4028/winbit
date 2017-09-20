@@ -1,0 +1,17 @@
+CREATE TABLE board (
+  bbsID INT NOT NULL,
+  title VARCHAR(100) NULL,
+  content VARCHAR(1000) NULL,
+  writer VARCHAR(100) NULL,
+  wtime TIMESTAMP NOT NULL,
+  bCount INT NOT NULL,
+  gNum INT NOT NULL,
+  lNum INT NOT NULL,
+  indent INT NOT NULL,
+  PRIMARY KEY(bbsID)
+);
+
+
+mariadb
+db  winbit
+tb  board
